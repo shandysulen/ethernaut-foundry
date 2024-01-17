@@ -40,7 +40,7 @@ contract HelloEthernaut is IHelloEthernaut {
     }
 
     function authenticate(string memory passkey) external {
-        require(keccak256(bytes(passkey)) == keccak256(bytes('ethernaut0')));
+        require(keccak256(bytes(passkey)) == keccak256(bytes(password)));
 
         cleared = true;
     }
