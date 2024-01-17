@@ -35,9 +35,26 @@
             "type": "function"
         }
     ],
-    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newNumber\",\"type\":\"uint256\"}],\"name\":\"setNumber\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/shand/OneDrive/Documents/repos/library-set/src/Counter.sol\":\"Counter\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/shand/OneDrive/Documents/repos/library-set/src/Counter.sol\":{\"keccak256\":\"0x449c2b7d5cee01c882a340d78a188b96a3114cad597feb1ca20d95e3e3f2ed6e\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://a90e1a29a2fe3170945e0f5b87484aa2b948af1ffc3311e48acc720ef3c57b5d\",\"dweb:/ipfs/QmRR7fJx7VuwYCrJFRNoH51iB82u4RUNYTVtFikbzi1RvH\"]}},\"version\":1}",
-    "bytecode": "608060405234801561001057600080fd5b5060f78061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80633fb5c1cb1460415780638381f58a146053578063d09de08a14606d575b600080fd5b6051604c3660046083565b600055565b005b605b60005481565b60405190815260200160405180910390f35b6051600080549080607c83609b565b9190505550565b600060208284031215609457600080fd5b5035919050565b60006001820160ba57634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220273272762ff78bacaf603db4aeead7ddc95c2727c22eeb38bc263aa49608971464736f6c63430008130033",
-    "deployedBytecode": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c80633fb5c1cb1460415780638381f58a146053578063d09de08a14606d575b600080fd5b6051604c3660046083565b600055565b005b605b60005481565b60405190815260200160405180910390f35b6051600080549080607c83609b565b9190505550565b600060208284031215609457600080fd5b5035919050565b60006001820160ba57634e487b7160e01b600052601160045260246000fd5b506001019056fea2646970667358221220273272762ff78bacaf603db4aeead7ddc95c2727c22eeb38bc263aa49608971464736f6c63430008130033",
+    "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newNumber\",\"type\":\"uint256\"}],\"name\":\"setNumber\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/shand/OneDrive/Documents/repos/library-set/src/Counter.sol\":\"Counter\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/shand/OneDrive/Documents/repos/library-set/src/Counter.sol\":{\"keccak256\":\"0x449c2b7d5cee01c882a340d78a188b96a3114cad597feb1ca20d95e3e3f2ed6e
+\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://a90e1a29a2fe3170945e0f5b87484aa2b948af1ffc3311e48acc720ef3c57b5d
+\",\"dweb:/ipfs/QmRR7fJx7VuwYCrJFRNoH51iB82u4RUNYTVtFikbzi1RvH\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060f78061001f6000396000f3fe60
+80604052348015600f57600080fd5b5060043610603c5760003560e01c80633f
+b5c1cb1460415780638381f58a146053578063d09de08a14606d575b600080fd
+5b6051604c3660046083565b600055565b005b605b60005481565b6040519081
+5260200160405180910390f35b6051600080549080607c83609b565b91905055
+50565b600060208284031215609457600080fd5b5035919050565b6000600182
+0160ba57634e487b7160e01b600052601160045260246000fd5b506001019056
+fea2646970667358221220273272762ff78bacaf603db4aeead7ddc95c2727c2
+2eeb38bc263aa49608971464736f6c63430008130033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063
+3fb5c1cb1460415780638381f58a146053578063d09de08a14606d575b600080
+fd5b6051604c3660046083565b600055565b005b605b60005481565b60405190
+815260200160405180910390f35b6051600080549080607c83609b565b919050
+5550565b600060208284031215609457600080fd5b5035919050565b60006001
+820160ba57634e487b7160e01b600052601160045260246000fd5b5060010190
+56fea2646970667358221220273272762ff78bacaf603db4aeead7ddc95c2727
+c22eeb38bc263aa49608971464736f6c63430008130033",
     "sourceMap": "68:202:0:-:0;;;;;;;;;;;;;;;;;;;",
     "deployedSourceMap": "68:202:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:82;;;;;;:::i;:::-;178:6;:18;122:82;;;92:21;;;;;;;;;345:25:1;;;333:2;318:18;92:21:0;;;;;;;212:55;;251:6;:8;;;:6;:8;;;:::i;:::-;;;;;;212:55::o;14:180:1:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:1;;14:180;-1:-1:-1;14:180:1:o;381:232::-;420:3;441:17;;;438:140;;500:10;495:3;491:20;488:1;481:31;535:4;532:1;525:15;563:4;560:1;553:15;438:140;-1:-1:-1;605:1:1;594:13;;381:232::o",
     "sourcePath": "c:/Users/shand/OneDrive/Documents/repos/library-set/src/Counter.sol",
