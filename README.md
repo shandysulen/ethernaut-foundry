@@ -35,3 +35,9 @@ Once [`TelephoneAttacker`](src/5-Telephone.sol) is deployed, run the following t
 ```bash
 $ cast send $TELEPHONE_ATTACKER "attack()" --private-key $ETHERNAUT_PRIVATE_KEY --rpc-url $SEPOLIA_RPC_URL
 ```
+
+### Level 6 - Token
+
+[Level](levels/6-Token.sol) | [Solution (Contract)](src/6-Token.sol)
+
+Exploit the underflow vulnerability in Solidity v0.6.
