@@ -41,3 +41,7 @@ $ cast send $TELEPHONE_ATTACKER "attack()" --private-key $ETHERNAUT_PRIVATE_KEY 
 [Level](levels/5-Token.sol) | [Solution (Contract)](src/5-Token.sol)
 
 Exploit the underflow vulnerability in Solidity v0.6.
+
+### Level 6 - Delegation
+
+[Level](levels/6-Delegation.sol) | [Solution (Contract)](src/6-Delegation.sol)
