@@ -45,3 +45,7 @@ Exploit the underflow vulnerability in Solidity v0.6.
 ### Level 6 - Delegation
 
 [Level](levels/6-Delegation.sol) | [Solution (Script)](src/6-Delegation.s.sol)
+
+### Level 7 - Force
+
+[Level](levels/7-Force.sol) | [Solution (Contract)](src/7-Force.sol) | [Solution (Script)](src/7-Force.s.sol)
