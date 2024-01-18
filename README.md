@@ -55,3 +55,9 @@ Exploit the underflow vulnerability in Solidity v0.6.
 [Level](levels/8-Vault.sol) | [Solution (Script)](src/8-Vault.s.sol)
 
 Read storage slot 1 of the `Vault` instance and pass it to `Vault::unlock()`.
+
+### Level 9 - King
+
+[Level](levels/9-King.sol) | [Solution (Contract)](src/9-King.sol) | [Solution (Script)](script/9-King.s.sol)
+
+The `King` contract is susceptible to denial of service (DoS). To exploit, create a contract that becomes king and reverts in `receive()` upon an ETH transfer.
