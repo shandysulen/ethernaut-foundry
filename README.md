@@ -49,3 +49,9 @@ Exploit the underflow vulnerability in Solidity v0.6.
 ### Level 7 - Force
 
 [Level](levels/7-Force.sol) | [Solution (Contract)](src/7-Force.sol) | [Solution (Script)](src/7-Force.s.sol)
+
+### Level 8 - Vault
+
+[Level](levels/8-Vault.sol) | [Solution (Script)](src/8-Vault.s.sol)
+
+Read storage slot 1 of the `Vault` instance and pass it to `Vault::unlock()`.
