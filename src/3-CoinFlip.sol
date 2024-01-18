@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-import "../levels/4-CoinFlip.sol";
+import "../levels/3-CoinFlip.sol";
 
 contract CoinFlipAttacker {
     CoinFlip public coinFlipContract;

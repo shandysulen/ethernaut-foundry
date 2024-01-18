@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.6.0;
 
-import "../levels/3-Fallout.sol";
+import "../levels/2-Fallout.sol";
 import "forge-std/Script.sol";
 
 contract Attack is Script {

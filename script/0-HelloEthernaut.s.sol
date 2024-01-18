@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity >=0.7.0 <0.9.0;
 
-import "../levels/1-HelloEthernaut.sol";
+import "../levels/0-HelloEthernaut.sol";
 import "forge-std/Script.sol";
 
 contract Attack is Script {

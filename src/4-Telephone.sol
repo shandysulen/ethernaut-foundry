@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-import "../levels/5-Telephone.sol";
+import "../levels/4-Telephone.sol";
 
 contract TelephoneAttacker {
     Telephone telephone;
