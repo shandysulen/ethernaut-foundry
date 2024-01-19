@@ -89,3 +89,13 @@ This level is an exercise in three things:
 1. Difference between `msg.sender` and `tx.origin`
 2. Specifiying gas in `call()`
 3. Bit operators, namely using the `&` to create a mask
+
+### Level 14 - GatekeeperTwo
+
+[Level](levels/14-GatekeeperTwo.sol) | [Solution (Script)](script/14-GatekeeperTwo.s.sol) | [Solution (Contract)](src/14-GatekeeperTwo.sol)
+
+This level is an exercise in three things:
+
+1. Difference between `msg.sender` and `tx.origin`
+2. Understanding a contract lacks code size during its constructor
+3. The `~` unary negation bit operator to find the complementary bytes for an `XOR` (^) operation
