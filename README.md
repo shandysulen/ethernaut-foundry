@@ -67,3 +67,9 @@ The `King` contract is susceptible to denial of service (DoS). To exploit, creat
 [Level](levels/10-Reentrance.sol) | [Solution (Contract)](src/10-Reentrance.sol) | [Solution (Script)](script/10-Reentrance.s.sol)
 
 The `Reentrance` contract is susceptible to a reentrancy attack. Donate and withdraw from a contract with a receive/fallback function that continues to withdraw until the contract is drained.
+
+### Level 11 - Elevator
+
+[Level](levels/11-Elevator.sol) | [Solution (Contract)](src/11-Elevator.sol) | [Solution (Script)](script/11-Elevator.s.sol)
+
+Simply implement `isLastFloor()` to first return `false` then `true` in order to reach the desired code path.
