@@ -105,3 +105,9 @@ This level is an exercise in three things:
 [Level](levels/15-NaughtCoin.sol) | [Solution (Script)](script/15-NaughtCoin.s.sol) | [Solution (Contract)](src/15-NaughtCoin.sol)
 
 To beat this level, take advantage of `approve()` and `transferFrom()` to transfer tokens from the locked player's balance.
+
+### Level 16 - Preservation
+
+[Level](levels/16-Preservation.sol) | [Solution (Script)](script/16-Preservation.s.sol) | [Solution (Contract)](src/16-Preservation.sol)
+
+To beat this level, overwrite the first storage slot of `Preservation` with the address of a contract that can in turn overwite the storage slot of `owner`.
