@@ -111,3 +111,9 @@ To beat this level, take advantage of `approve()` and `transferFrom()` to transf
 [Level](levels/16-Preservation.sol) | [Solution (Script)](script/16-Preservation.s.sol) | [Solution (Contract)](src/16-Preservation.sol)
 
 To beat this level, overwrite the first storage slot of `Preservation` with the address of a contract that can in turn overwite the storage slot of `owner`.
+
+### Level 17 - Recovery
+
+[Level](levels/17-Recovery.sol) | [Solution (Script)](script/17-Recovery.s.sol)
+
+After learning the address of the `SimpleToken` deployment, simply call `destroy()` on it to `selfdestruct()` and recover the contract's balance.
