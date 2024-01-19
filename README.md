@@ -61,3 +61,9 @@ Read storage slot 1 of the `Vault` instance and pass it to `Vault::unlock()`.
 [Level](levels/9-King.sol) | [Solution (Contract)](src/9-King.sol) | [Solution (Script)](script/9-King.s.sol)
 
 The `King` contract is susceptible to denial of service (DoS). To exploit, create a contract that becomes king and reverts in `receive()` upon an ETH transfer.
+
+### Level 10 - Reentrance
+
+[Level](levels/10-Reentrance.sol) | [Solution (Contract)](src/10-Reentrance.sol) | [Solution (Script)](script/10-Reentrance.s.sol)
+
+The `Reentrance` contract is susceptible to a reentrancy attack. Donate and withdraw from a contract with a receive/fallback function that continues to withdraw until the contract is drained.
