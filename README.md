@@ -99,3 +99,9 @@ This level is an exercise in three things:
 1. Difference between `msg.sender` and `tx.origin`
 2. Understanding a contract lacks code size during its constructor
 3. The `~` unary negation bit operator to find the complementary bytes for an `XOR` (^) operation
+
+### Level 15 - NaughtCoin
+
+[Level](levels/15-NaughtCoin.sol) | [Solution (Script)](script/15-NaughtCoin.s.sol) | [Solution (Contract)](src/15-NaughtCoin.sol)
+
+To beat this level, take advantage of `approve()` and `transferFrom()` to transfer tokens from the locked player's balance.
