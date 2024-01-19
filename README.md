@@ -73,3 +73,9 @@ The `Reentrance` contract is susceptible to a reentrancy attack. Donate and with
 [Level](levels/11-Elevator.sol) | [Solution (Contract)](src/11-Elevator.sol) | [Solution (Script)](script/11-Elevator.s.sol)
 
 Simply implement `isLastFloor()` to first return `false` then `true` in order to reach the desired code path.
+
+### Level 12 - Privacy
+
+[Level](levels/12-Privacy.sol) | [Solution (Script)](script/12-Privacy.s.sol)
+
+Inspect 5th storage slot of `Privacy` and cast down to `bytes16`, pass value to `unlock()`.
