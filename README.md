@@ -79,3 +79,13 @@ Simply implement `isLastFloor()` to first return `false` then `true` in order to
 [Level](levels/12-Privacy.sol) | [Solution (Script)](script/12-Privacy.s.sol)
 
 Inspect 5th storage slot of `Privacy` and cast down to `bytes16`, pass value to `unlock()`.
+
+### Level 13 - GatekeeperOne
+
+[Level](levels/13-GatekeeperOne.sol) | [Solution (Script)](script/13-GatekeeperOne.s.sol) | [Solution (Contract)](src/13-GatekeeperOne.sol)
+
+This level is an exercise in three things:
+
+1. Difference between `msg.sender` and `tx.origin`
+2. Specifiying gas in `call()`
+3. Bit operators, namely using the `&` to create a mask
