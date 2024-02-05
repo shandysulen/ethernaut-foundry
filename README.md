@@ -117,3 +117,26 @@ To beat this level, overwrite the first storage slot of `Preservation` with the 
 [Level](levels/17-Recovery.sol) | [Solution (Script)](script/17-Recovery.s.sol)
 
 After learning the address of the `SimpleToken` deployment, simply call `destroy()` on it to `selfdestruct()` and recover the contract's balance.
+
+### Level 18 - MagicNumber
+
+[Level](levels/18-MagicNum.sol) | [Solution (Script)](script/18-MagicNum.s.sol)
+
+This is an exercise in writing contract bytecode. Start with writing the runtime bytecode (10 bytes, 6 opcodes):
+
+PUSH 0x2a
+PUSH 0x80
+MSTORE
+PUSH 0x20
+PUSH 0x80
+RETURN
+
+Then write the initialization bytecode which must return the runtime bytecode (12 bytes, 7 opcodes):
+
+PUSH 0x0a
+PUSH 0x0c
+PUSH 0x00
+CODECOPY
+PUSH 0x0a
+PUSH 0x00
+RETURN
