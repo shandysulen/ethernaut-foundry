@@ -140,3 +140,22 @@ CODECOPY
 PUSH 0x0a
 PUSH 0x00
 RETURN
+
+### Level 19 - Alien Codex
+
+[Level](levels/19-AlienCodex.sol) | [Solution (Contract)](src/19-AlienCodex.sol)
+
+First, we map the storage layout:
+
+| Slot              | Storage Variable(s)                    |
+| ----------------- | -------------------------------------- |
+| 0                 | \_owner (20 bytes), contact (1 byte)   |
+| 1                 | codex length                           |
+| ...               | ...                                    |
+| keccak(1)         | codex[0]                               |
+| keccak(1) + 1     | codex[1]                               |
+| ...               | ...                                    |
+| 2<sup>256</sup>-1 | codex[2<sup>256</sup> - 1 - keccak(1)] |
+| 0 (overflow)      | codex[2<sup>256</sup> - keccak(1)]     |
+
+We can overwrite `_owner` in storage slot 0, by replacing the value at codex[2<sup>256</sup> - keccak(1)].
