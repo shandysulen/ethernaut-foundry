@@ -1,0 +1,86 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0e37dd187b468da8c7c18c231bd9b699b256060b64416a12af954e4ae7e05ce2",
+      "transactionType": "CREATE",
+      "contractName": "DenialAttacker",
+      "contractAddress": "0x5ea30eaBb829D0dF044D6E2670A6Ea2F29f19B2b",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0xd68507ad129cc90edcf31e295eafbebbf0987ac2",
+        "gas": "0x15e74",
+        "value": "0x0",
+        "data": "0x6080604052348015600f57600080fd5b50604880601d6000396000f3fe608060405236600d575b6009565b600080fdfea2646970667358221220922f52a3f17074a6ae49b2616c91f529d4ebb083237b0240f09969748b0a928d64736f6c63430008170033",
+        "nonce": "0x89",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0b52d4813c1bac8acf8d0581f98310ec78b3780693ac9604d28cf129ab467217",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x94b63869fc1E5d4ad654Eb04679eC2B4d193173f",
+      "function": "setWithdrawPartner(address)",
+      "arguments": [
+        "0x5ea30eaBb829D0dF044D6E2670A6Ea2F29f19B2b"
+      ],
+      "transaction": {
+        "type": "0x02",
+        "from": "0xd68507ad129cc90edcf31e295eafbebbf0987ac2",
+        "to": "0x94b63869fc1e5d4ad654eb04679ec2b4d193173f",
+        "gas": "0xecaa",
+        "value": "0x0",
+        "data": "0x4e1c59140000000000000000000000005ea30eabb829d0df044d6e2670a6ea2f29f19b2b",
+        "nonce": "0x8a",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x0e37dd187b468da8c7c18c231bd9b699b256060b64416a12af954e4ae7e05ce2",
+      "transactionIndex": "0x35",
+      "blockHash": "0x8b3361136d6bfbd107c995a6ee0a68afcd688c015c6b9ec57a912e2cded0323a",
+      "blockNumber": "0x50a008",
+      "from": "0xd68507ad129cC90eDCf31E295EafBEbBf0987Ac2",
+      "to": null,
+      "cumulativeGasUsed": "0x610c83",
+      "gasUsed": "0x10d9d",
+      "contractAddress": "0x5ea30eaBb829D0dF044D6E2670A6Ea2F29f19B2b",
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x352a036b8"
+    },
+    {
+      "transactionHash": "0x0b52d4813c1bac8acf8d0581f98310ec78b3780693ac9604d28cf129ab467217",
+      "transactionIndex": "0x36",
+      "blockHash": "0x8b3361136d6bfbd107c995a6ee0a68afcd688c015c6b9ec57a912e2cded0323a",
+      "blockNumber": "0x50a008",
+      "from": "0xd68507ad129cC90eDCf31E295EafBEbBf0987Ac2",
+      "to": "0x94b63869fc1E5d4ad654Eb04679eC2B4d193173f",
+      "cumulativeGasUsed": "0x61b7db",
+      "gasUsed": "0xab58",
+      "contractAddress": null,
+      "logs": [],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "effectiveGasPrice": "0x352a036b8"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1707876846,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "5a516dc"
+}

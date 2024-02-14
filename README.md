@@ -159,3 +159,9 @@ First, we map the storage layout:
 | 0 (overflow)      | codex[2<sup>256</sup> - keccak(1)]     |
 
 We can overwrite `_owner` in storage slot 0, by replacing the value at codex[2<sup>256</sup> - keccak(1)].
+
+### Level 20 - Denial
+
+[Level](levels/19-Denial.sol) | [Solution (Script)](script/19-Denial.s.sol) | [Solution (Contract)](src/19-Denial.sol)
+
+Since `call()` won't bubble up a revert, to perform a denial of service (DoS) we must exhaust all gas units. We do this by simply entering an infinite loop when `Denial.sol` calls into our (malicious) partner contract.
